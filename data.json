@@ -1,19 +1,89 @@
 {
-  "posts": [
+
+ 
+
+  "livros": [
     {
+ 
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+
+      "name": "A cabana",
+
+ 
+
+      "price": 35
+ 
+    },
+
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+
+
+      "id": 2,
+
+
+      "name": "O Monge e o executivo",
+
+ 
+
+      "price": 37
+
+    },
+
+     {
+ 
+
+      "id": 3,
+
+
+      "name": "Inteligência emcional",
+
+ 
+
+      "price": 27
+
+ 
+    },
+
+
+    {
+
+ 
+      "id": 4,
+
+
+      "name": "Estratégia empresarial",
+
+ 
+
+      "price": 45
+
+ 
+
+    },
+
+ 
+    {
+
+ 
+
+      "id": 5,
+
+ 
+
+      "name": "Compras estratégicas",
+
+ 
+
+      "price": 40
+
+ 
+
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+
+ 
+
+  ]
+
+ 
+
 }
