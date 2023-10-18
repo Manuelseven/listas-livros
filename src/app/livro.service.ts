@@ -1,7 +1,20 @@
 import { Injectable } from '@angular/core';
+
+ 
+
 import { Livro } from './models/livro';
+
+ 
+
 import { HttpClient } from '@angular/common/http';
+
+ 
+
 import { Observable } from 'rxjs';
+
+ 
+
+ 
 
  
 
@@ -20,17 +33,50 @@ import { Observable } from 'rxjs';
 export class LivroService {
 
  
-  livros : Livro[] = [];
+
  
+
+ 
+
+  livros : Livro[] = [];
+
+ 
+
+ 
+
+ 
+
   constructor(private http: HttpClient) {
+
+ 
+
+   
+
+ 
 
   }
 
  
+
+ 
+
+ 
+
   getLivros(): Observable<Livro[]>{
 
  
+
+ 
+
+ 
+
     return this.http.get<Livro[]>("http://localhost:3000/livros");    
+
+ 
+
+   
+
+ 
 
   }
 

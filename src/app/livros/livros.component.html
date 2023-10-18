@@ -1,33 +1,93 @@
 <div class="display-6 bg-secondary text-center text-light p-3">
+
  
-    Lista de livros
+
+ 
+
+ 
+
+  Lista de livros
+
+
+
                
-    </div>
-
- 
-    <table class="table">
-
-        <thead>
-           <tr>
-
-            <th scope="col">Id</th>
-
-            <th scope="col">Nome</th>
 
 
-            <th scope="col">Preço</th>
 
-         </tr>
+  </div>
 
-        </thead>
-        <tbody>
-            <tr *ngFor="let p of livros">
 
-                 <th scope="row">{{p.id}}</th>
 
-                   <td>{{p.name}}</td>
-                   <td>{{p.price}}</td>
-         </tr>
 
-         </tbody>
-       </table>
+
+
+
+  <table class="table">
+
+
+
+      <thead>
+
+
+
+        <tr>
+
+
+
+          <th scope="col">Id</th>
+
+
+
+          <th scope="col">Nome</th>
+
+
+
+          <th scope="col">Preço</th>
+
+
+
+      </tr>
+
+
+
+      </thead>
+
+
+
+      <tbody>
+
+
+
+          <tr *ngFor="let p of livros">
+
+
+
+              <th scope="row">{{p.id}}</th>
+
+
+
+
+
+
+
+              <td>{{p.name}}</td>
+
+
+
+     
+
+
+
+              <td>{{p.price}}</td>
+
+
+
+       </tr>
+
+
+
+       </tbody>
+
+
+
+    </table>
